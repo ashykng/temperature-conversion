@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(228, 228, 228);
+    font-family: Arial sans-serif;
+}
+
+form{
+    margin: auto;
+    text-align: center;
+    background-color: rgb(160, 140, 245);
+    max-width: 400px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#textBox{
+    text-align: center;
+    font-size: 1.4em;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.label{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#submitBtn{
+    background-color: rgb(250, 100, 100);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+#submitBtn:hover{
+    font-size: 1.05em;
+}
+
+#result{
+    font-size: 1.4em;
+}
