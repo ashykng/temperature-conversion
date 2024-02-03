@@ -4,8 +4,7 @@ const celsius = document.getElementById("toCelsius");
 const result = document.getElementById("result");
 
 function convert(e){
-    console.log(e);
-    e.preventDefault()
+    e.preventDefault();
     const temp = Number(textBox.value);
     if(fahrenheit.checked)
         result.textContent = (temp * 1.8 + 32).toFixed(1);
