@@ -2,10 +2,11 @@ const textBox = document.getElementById("textBox");
 const fahrenheit = document.getElementById("toFahrenheit");
 const celsius = document.getElementById("toCelsius");
 const result = document.getElementById("result");
-let temp = Number(textBox.value);
 
-function convert(){
-
+function convert(e){
+    console.log(e);
+    e.preventDefault()
+    const temp = Number(textBox.value);
     if(fahrenheit.checked)
         result.textContent = (temp * 1.8 + 32).toFixed(1);
 
